@@ -1,0 +1,63 @@
+// main.scss
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Import your custom variables
+@import "./custom-variables.scss";
+
+.text-lprimary {
+  color: $lprimary; // Apply the custom background color
+}
+.text-dprimary {
+  color: $dprimary;
+}
+.bg-bg {
+  background-color: $bg;
+}
+.bg-dbg {
+  background-color: $dbg;
+}
+.active {
+  --bs-navbar-active-color: #0000009d;
+}
+.border-lprimary {
+  border: 1px solid $lprimary;
+}
+.border-dprimary {
+  border: 1px solid $dprimary;
+}
+.text-lsecondary {
+  color: $lsecondary;
+}
+.text-dsecondary {
+  color: $dsecondary;
+}
+.btn-bg {
+  background-color: $btnbg;
+}
+.btn-dbg {
+  background-color: $dbtnbg;
+}
+.text-dbtn-text {
+  color: $dbtntext;
+}
+.nk-image-border {
+  border: 15px solid #fff;
+}
+.lyear {
+  background-color: #cfa67081;
+}
+.dyear {
+  color: #fff !important;
+  font-weight: 600;
+  background-color: #15344876;
+}
+.skill-bg {
+  background-color: #cfa67081;
+}
+.skill-dbg {
+  background-color: #b3bdcf;
+
+  // border: 1px solid #153448;
+}

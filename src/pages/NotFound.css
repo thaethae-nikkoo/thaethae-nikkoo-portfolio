@@ -1,0 +1,158 @@
+/* Text */
+:root {
+  --base__font-size: 16px;
+  --base__line: 24px;
+
+  --font-family--PT-Sans: "Zilla Slab", serif;
+  --font-family--Acme: "Zilla Slab", serif;
+
+  --font-family--primary: var(--font-family--PT-Sans);
+  --font-family--secondary: var(--font-family--Acme);
+}
+
+/* Colors */
+:root {
+  --white: #fff;
+  --brown: #000;
+  --yellow: #000;
+}
+
+/* Breakpoints */
+:root {
+  --sm-device: 576px;
+  --md-device: 768px;
+  --lg-device: 992px;
+  --xl-device: 1200px;
+}
+
+/* Font size variables */
+:root {
+  --default-font-size: calc(var(--base__font-size) - 2px);
+  --font-size--sm: 12px;
+  --font-size--md: 16px;
+  --font-size--lg: 20px;
+  --font-size--xlg: 96px;
+}
+
+/* Color Usage */
+:root {
+  --primary-color: var(--yellow);
+}
+
+/* Font weights */
+:root {
+  --font-weight--regular: 400;
+  --font-weight--bold: 700;
+}
+
+.clearfix-none {
+  display: inherit;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* Base Code */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--font-family--primary);
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family--primary);
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.message-icon {
+  width: 100%;
+}
+.message-block {
+  display: flex;
+  justify-content: center;
+  /* width: 516px; */
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.message-block__main-text {
+  color: #000;
+  font-family: var(--font-family--secondary);
+  font-size: var(--font-size--xlg);
+  margin: 0px 0px 22px 0px;
+}
+
+.message-block__text {
+  color: #000;
+  font-family: var(--font-family--primary);
+  font-size: var(--font-size--lg);
+  margin-bottom: 12px;
+}
+
+.message-block__link {
+  color: #000;
+  display: inline-block;
+}
+
+.message-block__link-icon {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.message-block__link-icon svg {
+  fill: #000;
+}
+
+.message-block__link-text {
+  display: inline-block;
+  font-family: var(--font-family--primary);
+  font-size: var(--font-size--md);
+  font-weight: var(--font-weight--bold);
+  line-height: 1;
+}

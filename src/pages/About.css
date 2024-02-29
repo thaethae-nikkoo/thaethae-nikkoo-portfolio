@@ -1,0 +1,147 @@
+.about * {
+  font-family: "Zilla Slab", serif;
+}
+
+.about .about-me .titile {
+  font-family: "Zilla Slab", serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+.about .about-me p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.about .about-img img {
+  width: 80%;
+  border: 15px solid #ffffff88;
+  box-shadow: 22px 23px 6px 0px rgba(139, 138, 137, 0.4);
+  z-index: 999;
+}
+.menu .nav-link {
+  margin: 0 10px;
+  padding: 5px 10px;
+  transition: 0.3s;
+  border-radius: 0;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+}
+.menu .nav-link:hover {
+  color: #000;
+}
+.menu .nav-link h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+@media (max-width: 575px) {
+  .menu .nav-link {
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+
+  .about .about-img img {
+    width: 100%;
+    border: 5px solid #ffffff88;
+    box-shadow: 22px 23px 6px 0px rgba(181, 147, 86, 0.4);
+  }
+}
+.menu .nav-link.active {
+  background-color: transparent !important;
+  color: #00000091 !important;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #153448 !important;
+}
+.menu .nav-link.active h4 {
+  font-weight: 900;
+}
+
+.menu .tab-content .tab-header {
+  padding: 30px 0;
+}
+.menu .tab-content .tab-header h3 {
+  font-size: 28px;
+}
+
+.education h3,
+.work h3 {
+  font-size: 22px;
+
+  font-weight: 600;
+}
+.education p,
+.work p {
+  font-size: 17px;
+  font-weight: 500;
+}
+.year {
+  display: inline;
+  font-weight: 500;
+  width: fit-content;
+}
+.about-list li {
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.download-cv {
+  background-color: #cfa67081;
+  color: #7f5434;
+  font-weight: 800;
+  display: inline-block;
+  border-radius: 5px;
+}
+.download-cv a {
+  color: #7f5434;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.whatexp {
+  font-size: 18px;
+}
+.skill-item {
+  border-radius: 10px;
+  width: 18%;
+  padding: 10px 20px 5px 20px;
+}
+.skill-item p {
+  font-weight: 800;
+}
+.six {
+  width: 200px;
+  position: absolute;
+  bottom: 20px;
+  top: -80px;
+  left: 64%;
+  transform: rotate(30deg);
+  opacity: 0.4;
+  z-index: 1;
+}
+@media screen and (max-width: 992px) {
+  .skill-item {
+    width: 20%;
+  }
+
+  .about .about-img img {
+    width: 100%;
+    border: 15px solid #ffffff88;
+    box-shadow: 22px 23px 6px 0px rgba(170, 169, 167, 0.4);
+    z-index: 999;
+  }
+}
+@media screen and (max-width: 576px) {
+  .skill-item {
+    width: 30%;
+  }
+  .six {
+    width: 100px;
+    position: absolute;
+    bottom: 106px;
+    left: 70%;
+    opacity: 1;
+    transform: rotate(30deg);
+  }
+}

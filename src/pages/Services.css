@@ -1,0 +1,49 @@
+.services * {
+  font-family: "Zilla Slab", serif;
+}
+
+.services .services-me .titile {
+  font-family: "Zilla Slab", serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+.services .services-me p {
+  font-size: 18px;
+  font-weight: 500;
+}
+/* .card {
+  background-color: transparent;
+} */
+.flow-item {
+  min-height: 250px;
+}
+.number {
+  display: inline-block;
+  font-size: 36px;
+  font-weight: 900;
+}
+.number::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #00000091;
+  display: block;
+}
+.flow-desc-title {
+  font-size: 23px;
+  font-weight: 600;
+}
+.flow-description {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.service-img {
+  width: fit-content;
+
+  padding: 20px;
+  border-radius: 50%;
+}
+.service-img img {
+  width: 40px;
+}

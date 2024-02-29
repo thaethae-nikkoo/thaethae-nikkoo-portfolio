@@ -1,0 +1,140 @@
+{
+    "portfolios": [
+        {
+            "id": 1,
+            "image": "portfolio-efrgroup.png",
+            "title": "EFR Group Company Website",
+            "techStack": "HTML | CSS | JS | Boostrap | Laravel ",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 2,
+            "image": "portfolio-memonotepad.png",
+            "title": "Memory Notepad",
+            "techStack": "Tailwind CSS | Vite-React | Firebase ",
+            "sourceCodeLink": "https://github.com/thaethae-nikkoo/react-vite-notepad-with-firebase",
+            "demo": "https://memorynotepad.tns-nikkoo.com/"
+        },
+        {
+            "id": 3,
+            "image": "portfolio-netlink-whmcs.png",
+            "title": "Netlink Server Automation ",
+            "techStack": "Cpanel's WHMCS",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 4,
+            "image": "portfolio-elibrary.png",
+            "title": "EFR Course Learning Platform ",
+            "techStack": "HTML | CSS | JS | Boostrap | Laravel | Digital Ocean's Space ",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 5,
+            "image": "portfolio-meeting-booking.png",
+            "title": "Meeting Room Booking System",
+            "techStack": "HTML | CSS | Boostrap | Javascript | Laravel | Livewire Calendar",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 6,
+            "image": "portfolio-thaethae.png",
+            "title": "Thae Nandar Soe Portfolio",
+            "techStack": "HTML | CSS | Boostrap | Javascript | React | Laravel",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 7,
+            "image": "portfolio-netlinkresell.png",
+            "title": "Netlink Server Reseller Website",
+            "techStack": "HTML | CSS | JS | Bootstrap",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 8,
+            "image": "portfolio-efrldcmdy.png",
+            "title": "EFR LDC Company Website",
+            "techStack": "HTML | CSS | Boostrap | Javascript",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 9,
+            "image": "portfolio-glink.png",
+            "title": "EFR Glink Company Website",
+            "techStack": "HTML | CSS | Boostrap | Javascript",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 10,
+            "image": "portfolio-unisonchoice.png",
+            "title": "Unison Choice Logistics Company Website",
+            "techStack": "HTML | Bootstrap | Javascript | PHP ",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 11,
+            "image": "portfolio-addressbook.png",
+            "title": "EFR Addressbook Website",
+            "techStack": "HTML | CSS | Boostrap | Javascript | Laravel ",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 12,
+            "image": "portfolio-netlink.png",
+            "title": "Netlink Company Website",
+            "techStack": "HTML | Bootstrap | Javascript | PHP",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 13,
+            "image": "portfoilo-hotspot.png",
+            "title": "EFR Wifi Connection Template",
+            "techStack": "HTML | Bootstrap | Javascript",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 14,
+            "image": "thlc.png",
+            "title": "Thunder Hawk Logistics Company Website",
+            "techStack": "HTML | Bootstrap | Javascript",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 15,
+            "image": "portfolio-trading.png",
+            "title": "EFR Trading Company Website",
+            "techStack": "HTML | Bootstrap | Javascript",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 16,
+            "image": "portfolio-infrasys.png",
+            "title": "Infrasys Company Website",
+            "techStack": "HTML | Bootstrap | Javascript | PHP",
+            "sourceCodeLink": "",
+            "demo": ""
+        },
+        {
+            "id": 17,
+            "image": "portfolio-echo.png",
+            "title": "MRTW Echo Company Website",
+            "techStack": "HTML | Bootstrap | Javascript",
+            "sourceCodeLink": "",
+            "demo": ""
+        }
+    ]
+}

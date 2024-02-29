@@ -1,0 +1,34 @@
+// custom-variables.scss
+
+// Import Bootstrap's default variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+// Override Bootstrap variables with your custom colors
+$lprimary: #7f5434;
+$dprimary: #153448;
+$bg: #fff;
+$dbg: #cdd3de;
+$lsecondary: #d0a66f;
+$dsecondary: #00000091;
+$btnbg: #d0a66f;
+$dbtnbg: #153448;
+$dbtntext: #fff;
+// $dbodybg: #212529; // You can set this to your desired color
+// $cardbg: #08122b;
+
+// Update Bootstrap's variables with custom values
+$theme-colors: (
+  "lprimary": $lprimary,
+  "dprimary": $dprimary,
+  "dbg": $dbg,
+  "bg": $bg,
+  "lsecondary": $lsecondary,
+  "dsecondary": $dsecondary,
+  "btnbg": $btnbg,
+  "dbtnbg": $dbtnbg,
+  "dbtntext": $dbtntext,
+);
+
+// Import Bootstrap to generate the final CSS
+@import "../node_modules/bootstrap/scss/bootstrap";

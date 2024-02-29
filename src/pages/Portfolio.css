@@ -1,0 +1,77 @@
+.portfolio * {
+  /* font-family: "Noto Sans", sans-serif; */
+  font-family: "Zilla Slab", serif;
+}
+
+.portfolio .portfolio-me .titile {
+  font-family: "Zilla Slab", serif;
+  font-size: 34px;
+  font-weight: 700;
+}
+.portfolio .portfolio-me p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.proj-img {
+  width: 100%;
+  overflow: hidden;
+}
+.proj-img img {
+  transition: all 0.5s;
+}
+
+.proj-img img:hover {
+  transform: scale(1.1);
+}
+.page-item {
+  /* box-shadow: none; */
+  border-radius: 5px;
+}
+.prev-next {
+  background-color: transparent !important;
+  border: none !important;
+}
+.prev-next:active,
+.prev-next:visited,
+.prev-next:focus {
+  box-shadow: none !important;
+}
+.proj {
+  min-height: 400px;
+}
+.pagination {
+  border-radius: 5px;
+}
+.page-link {
+  font-weight: 400;
+  border: none;
+  box-shadow: none;
+}
+.disabled .page-link {
+  color: rgb(234, 216, 194) !important;
+}
+.disabled .page-link span,
+.disabled .page-link i {
+  color: #2d2c2c50 !important;
+  box-shadow: none !important;
+}
+.active .page-link {
+  border: 1px solid #52505083 !important;
+  color: #000 !important;
+  background-color: transparent !important;
+  box-shadow: none;
+  font-weight: 900;
+}
+.page-link:hover {
+  color: #ecd0bf;
+}
+.proj-desc h4 {
+  font-weight: 600;
+
+  font-size: 20px;
+}
+.btn {
+  border: 1px solid #7f5434;
+  color: #7f5434;
+  width: fit-content;
+}

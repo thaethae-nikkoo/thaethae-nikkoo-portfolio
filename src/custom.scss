@@ -1,0 +1,70 @@
+// src/_custom.scss
+
+// Define your custom theme colors
+// $bg-color: #f7edd6;
+$primary-color: #7f5434;
+// $dbg-color: #7f5434;
+// $dprimary-color: #f7edd6;
+
+// Convert theme colors to RGB format
+$theme-colors-rgb: ();
+@each $name, $value in $theme-colors {
+  $theme-colors-rgb: map-merge(
+    $theme-colors-rgb,
+    (
+      $name: $value,
+    )
+  );
+}
+
+// Import Bootstrap's SCSS files
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+@import "../node_modules/bootstrap/scss/_mixins";
+@import "../node_modules/bootstrap/scss/_root";
+@import "../node_modules/bootstrap/scss/_reboot";
+@import "../node_modules/bootstrap/scss/_type";
+@import "../node_modules/bootstrap/scss/_images";
+@import "../node_modules/bootstrap/scss/_code";
+@import "../node_modules/bootstrap/scss/_grid";
+@import "../node_modules/bootstrap/scss/_tables";
+@import "../node_modules/bootstrap/scss/_forms";
+@import "../node_modules/bootstrap/scss/_buttons";
+@import "../node_modules/bootstrap/scss/_transitions";
+@import "../node_modules/bootstrap/scss/_dropdown";
+@import "../node_modules/bootstrap/scss/_button-group";
+@import "../node_modules/bootstrap/scss/_input-group";
+@import "../node_modules/bootstrap/scss/_custom-forms";
+@import "../node_modules/bootstrap/scss/_nav";
+@import "../node_modules/bootstrap/scss/_navbar";
+@import "../node_modules/bootstrap/scss/_card";
+@import "../node_modules/bootstrap/scss/_breadcrumb";
+@import "../node_modules/bootstrap/scss/_pagination";
+@import "../node_modules/bootstrap/scss/_badge";
+@import "../node_modules/bootstrap/scss/_jumbotron";
+@import "../node_modules/bootstrap/scss/_alert";
+@import "../node_modules/bootstrap/scss/_progress";
+@import "../node_modules/bootstrap/scss/_media";
+@import "../node_modules/bootstrap/scss/_list-group";
+@import "../node_modules/bootstrap/scss/_close";
+@import "../node_modules/bootstrap/scss/_toasts";
+@import "../node_modules/bootstrap/scss/_modal";
+@import "../node_modules/bootstrap/scss/_tooltip";
+@import "../node_modules/bootstrap/scss/_popover";
+@import "../node_modules/bootstrap/scss/_carousel";
+@import "../node_modules/bootstrap/scss/_spinners";
+@import "../node_modules/bootstrap/scss/_offcanvas";
+@import "../node_modules/bootstrap/scss/_utilities";
+@import "../node_modules/bootstrap/scss/_print";
+
+// Override Bootstrap's variables with your custom theme colors
+// For example:
+$theme-colors: (
+  "primary": $primary-color,
+  // "secondary": $dprimary-color,
+  // "warning": $bg-color,
+  // "danger": $dbg-color,,,
+);
+
+// Optionally, you can also extend Bootstrap's utility classes
+@import "../node_modules/bootstrap/scss/utilities/api";
