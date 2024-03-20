@@ -1,10 +1,3 @@
-// script.js
-window.addEventListener("load", function () {
-  document.getElementById("preloader").style.display = "none";
-  document.getElementById("root").style.display = "block";
-  document.getElementById("light-dark-toggler").style.display = "block";
-});
-
 // Wrap everything inside a DOMContentLoaded event listener to ensure the DOM is fully loaded before executing JavaScript
 document.addEventListener("DOMContentLoaded", function () {
   ("use strict");

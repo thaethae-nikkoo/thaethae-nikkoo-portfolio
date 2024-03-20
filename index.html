@@ -16,7 +16,7 @@
   </head>
 
   <body>
-    <div id="preloader">
+    <div id="preloader" style="display: flex">
       <p class="text">
         <span class="text-span"> # tns @ nikkoo </span>
 
@@ -25,7 +25,7 @@
     </div>
     <div id="cursor" class="Cursor"></div>
 
-    <div id="root"></div>
+    <div id="root" style="display: none"></div>
 
     <script type="text/javascript" src="/script.js"></script>
     <script type="module" src="/src/main.jsx"></script>
@@ -39,6 +39,14 @@
     ></script>
 
     <!-- Fontawesome -->
+
+    <script>
+      window.addEventListener("load", function () {
+        document.getElementById("preloader").style.display = "none"; // Hide the preloader
+        document.getElementById("root").style.display = "block"; // Show the root div
+        document.getElementById("light-dark-toggler").style.display = "block";
+      });
+    </script>
     <script
       src="https://kit.fontawesome.com/d821f1df0b.js"
       crossorigin="anonymous"
