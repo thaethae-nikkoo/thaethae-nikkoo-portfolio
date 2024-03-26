@@ -3,7 +3,7 @@ import "./Portfolio.css";
 // import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import { FaCode } from "react-icons/fa6";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import useTheme from "../hooks/useTheme";
 
@@ -34,7 +34,7 @@ export default function Portfolio() {
       id: 1,
       image: "portfolio-recipe.png",
       title: "Recipe Project",
-      techStack: "HTML | CSS | JS | Boostrap | Laravel | React |Axios ",
+      techStack: "HTML | CSS | JS | Boostrap | Laravel | React | Axios ",
       sourceCodeLink: "",
       demo: "",
     },
